@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Calculator</title>
+     </head>
+     <body>
+        <div class="container">
+            <h1>Calculator</h1>
+            <label class="label1" for="dataBox1">Enter first number:</label>
+            <input type="text" spellcheck="false" id="dataBox1">
+            <br>
+            <label class="label2" for="dataBox2">Enter operator: </label>
+            <input type="text" spellcheck="false" id="dataBox2">
+            <br>
+            <label class="label3" for="dataBox3">Enter second number:</label>
+            <input type="text" spellcheck="false" id="dataBox3">
+            <br>
+            <button id="button" onclick=processingFunction()>Submit</button>
+            <div id="outputArea"></div>
+        </div>
+        <script src="main.js"></script>  
+     </body>
+</html> 
